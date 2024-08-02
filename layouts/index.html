@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Sorts+Mill+Goudy:ital@0;1&display=swap" rel="stylesheet">
+  <title>{{ .Title }}</title>
+  {{ $styles := resources.Get "/css/custom.css" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+  <link rel="stylesheet" href="{{ $styles.Permalink }}">
+</head>
+<body>
+  <header>
+    <h1 class="site-title">{{ .Title }}</h1>
+  </header>
+  <main class="container">
+    <div class="main-content">
+      <div class="logo">
+        <h2>DBCM DnD</h2>
+      </div>
+    <div class="description">
+        <b>
+      A world full of asshole sorcerers, shady secret organizations, demons, and other entities, 
+        all seen through the eyes of an incredibly unreliable protagonist 
+        who doesn't know what's going on half the time, so figure it out by yourself...
+        </b>
+    </div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="/characters">Characters</a></li>
+          <li><a href="/lore">Lore</a></li>
+          <li><a href="/gallery">Gallery</a></li>
+          <!-- Add more links here for other categories -->
+        </ul>
+      </nav>
+      <br></br>
+      <div class="logo">
+        <h2>Fancy DnD</h2>
+      </div>
+    </div>
+    <aside class="sidebar-container">
+        <h2>The Wiki</h2>
+        <p>
+          This site is dedicated to ongoing D&Ds ran by
+          v3ctr0n. Its main purpose is to serve as a place to gather all 
+          information about the current campaigns for easier sharing 
+          with the players - you know who you are &#128513;.
+        </p>
+        <p>
+        On the off chance you have no f*cking idea who this mysterious v3ctr0n is or why you 
+        ended up here in the first place...you can totally look around.
+        The internet is free for all. Not gonna stop you am I? 
+
+        </p>
+        <p>
+          <b>Useful Links:</b><br>
+          <a href="https://discord.com/channels/1034189006344290416/1156573282313715764" target="_blank">Discord server</a>
+        </p>
+      </aside>
+    </main>
+  </main>
+  <footer>
+    <p>&copy; {{ now.Year }} v3ctr0n</p>
+  </footer>
+</body>
+</html>

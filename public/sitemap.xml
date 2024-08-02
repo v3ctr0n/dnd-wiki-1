@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/characters/benedict/</loc>
+    <lastmod>2024-07-11T18:26:21+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/characters/</loc>
+    <lastmod>2024-07-11T18:26:21+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/characters/jackaby/</loc>
+    <lastmod>2024-07-11T18:26:21+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/characters/julian/</loc>
+    <lastmod>2024-07-11T18:26:21+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/characters/leon/</loc>
+    <lastmod>2024-07-11T18:26:21+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-07-11T18:26:21+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/characters/abigor/</loc>
+  </url><url>
+    <loc>http://localhost:1313/characters/dora/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+  </url>
+</urlset>

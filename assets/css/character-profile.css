@@ -1,0 +1,332 @@
+/* Basic reset */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: url('/images/maze.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #199ad6;
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 0;
+}
+
+header, .container, .main-content {
+    position: relative;
+    z-index: 1;
+    font-family: "Sorts Mill Goudy", serif;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.6); 
+    text-align: center;
+    font-weight: 900;
+    font-family: "Sorts Mill Goudy", serif;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.432);
+    z-index: 2;
+    position: relative;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center; /* Center the navigation links */
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+    justify-content: center; /* Center the navigation links */
+    width: 100%;
+}
+
+
+.main-nav li {
+    display: inline-block;
+}
+
+.main-nav a {
+    color: #d8e2ec;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+}
+
+.main-nav a:hover {
+    color: #1699e6;
+}
+
+
+.main-content {
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+    position: relative;
+    z-index: 1;
+    flex-wrap: wrap;
+}
+
+.character-profile {
+    flex: 3;
+    background: rgba(231, 230, 230, 0.678); 
+    padding: 20px;
+    border-radius: 5px;
+    text-align: justify;
+}
+
+.character-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.character-text p {
+    z-index: 1;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #131212;
+}
+
+.character-text ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.character-text ul li {
+    margin-bottom: 10px;
+}
+
+.character-text .quote {
+    font-style: italic;
+    color: #555;
+    margin: 20px 0;
+}
+
+.character-text .section-title {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.character-text img {
+    word-wrap: break-word; 
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.character-details {
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: sticky;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.character-details-content {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-family:'Crimson Text';
+}
+
+.character-details-content h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #e0e2e2;
+    background-color: #0ca6eea2;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.character-details-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.character-details-content ul li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    color: #47a9d6c2;
+    font-weight: 200;
+}
+
+.character-details-content ul li strong {
+    color: #bdbcbc;
+}
+
+.table-of-contents {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+.table-of-contents h2 {
+    font-size: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #e0e2e2;
+    background-color: #0ca6eea2;
+    border-radius: 4px;
+}
+
+.table-of-contents ul {
+    font-family: 'Roboto';
+    list-style: none;
+    padding-left: 0;
+}
+
+.table-of-contents li {
+    margin-bottom: 5px;
+}
+
+.table-of-contents a {
+    color: #d1d8d8;
+    font-weight: 200;
+    text-decoration: none;
+    font-family: 'Crimson Text';
+}
+
+.table-of-contents a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+    text-align: center;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+}
+
+h1 {
+    font-family: "Sorts Mill Goudy", serif;
+}
+
+h2 {
+    font-family: "Sorts Mill Goudy", serif;
+    font-weight: 600;
+    font-size: xx-large;
+}
+
+p {
+    font-family:'Crimson Text';
+    font-weight: 600;
+    color: #f7f5f5;
+}
+
+/* Mobile styles */
+@media (max-width: 600px) {
+
+    .header-content {
+        display: flex;
+        justify-content: center; /* Center the navigation links */
+        align-items: center;
+        margin-left: -70px;
+    }
+    
+    .main-nav ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        gap: 30px;
+        justify-content: center; /* Center the navigation links */
+        width: 100%;
+    }
+    
+
+
+    .main-content {
+        flex-direction: column;
+        margin: 1px;
+        gap: 10px;
+        width: 100%; /* Ensure the main content takes the full width of the container */
+    }
+
+    .character-profile {
+        margin-bottom: 20px;
+        width: 100%; /* Ensure the character profile takes full width on mobile */
+        flex: 3;
+        background: rgba(231, 230, 230, 0.678); 
+        padding: 20px;
+        border-radius: 5px;
+        text-align: justify;
+        width: 100%; /* Added to ensure it takes full width of its container */
+        box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+    }
+
+    .character-details {
+        max-width: 100%;
+        position: static;
+        max-height: none;
+        overflow: visible;
+        width: 100%; /* Ensure the character details take full width on mobile */
+    }
+
+    .character-details-content {
+        width: 270px; /* Ensure these elements take full width on mobile */   
+
+    }
+
+    .character-text h1 {
+        font-size: 2rem;
+        width: 100%;
+    }
+
+    .character-text p,
+    .character-details-content ul li,
+    .table-of-contents h2 {
+        font-size: 1rem;
+        width: 310px;
+    }
+
+     /* Reposition Table of Contents above Character Details */
+     .table-of-contents {
+        font-size: 18px;
+        margin: 25px;
+        width: 270px;
+        order: -1; /* Moves the Table of Contents above the Character Details */
+    }
+
+    .table-of-contents h2 {
+        font-size: 30px;
+        width: 250px;
+    }
+
+
+   .footer{
+        display: flex;
+        justify-content: center; /* Center the navigation links */
+        align-items: center;
+        margin: 0px;
+    }
+}

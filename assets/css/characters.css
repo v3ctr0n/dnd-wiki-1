@@ -1,0 +1,330 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #fafafa;
+  color: #333;
+  padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #444;
+}
+
+/* Style the character list */
+.character-list {
+  list-style-type: none; /* Remove default bullet points */
+  padding: 0;
+}
+
+.character-list li {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  transition: background 0.3s ease;
+}
+
+.character-list li:hover {
+  background: #9c97978f;
+}
+
+.character-list a {
+  text-decoration: none;
+  color: #13121288;
+  font-weight: bold;
+}
+
+.character-list a:hover {
+  color: #007bff;
+}
+
+/* Style individual character pages */
+.character-page {
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Basic reset */
+body, h1, h2, h3, p, ul {
+margin: 0;
+padding: 0;
+font-family: Arial, sans-serif;
+}
+
+a {
+text-decoration: none;
+color: #007bff;
+}
+
+a:hover {
+color: #0056b3;
+text-decoration: underline;
+}
+
+/* Container styling */
+.container {
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+max-width: 1000px;
+max-height: 500px;
+margin: auto;
+padding: 10px;
+background-color: #d9e0e7c9;
+}
+
+/* Main content styling */
+.main-content {
+flex: 1;
+text-align: center;
+}
+
+.logo h2 {
+font-size: 3rem;
+margin-bottom: 20px;
+}
+
+/* Sidebar styling */
+.sidebar {
+width: 250px;
+margin-left: 20px;
+text-align: center;
+}
+
+.sidebar h3 {
+margin-bottom: 10px;
+}
+
+.sidebar a {
+display: block;
+background-color: #007bff;
+padding: 10px;
+border-radius: 5px;
+margin-top: 10px;
+}
+
+.sidebar a:hover {
+background-color: #0056b3;
+}
+
+/* Basic reset */
+body, html {
+margin: 0;
+padding: 0;
+height: 100%;
+font-family: Arial, sans-serif;
+}
+
+body {
+display: flex;
+flex-direction: column;
+min-height: 100vh; /* Ensures the body covers the full viewport height */
+background: url('/images/londinium2.jpg') no-repeat center center fixed;
+background-size: cover;
+color: #0f6288;
+}
+
+.site-title {
+font-family: "Sorts Mill Goudy", serif;
+font-size: 3rem;
+color: #768bca; /* Light color for better contrast */
+margin: 0;
+}
+
+.container {
+flex: 1; /* Allows the container to take up remaining space */
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+max-width: 1000px;
+margin: auto;
+padding: 20px;
+border-radius: 10px;
+}
+
+.sidebar {
+width: 170px;
+margin-left: 20px;
+text-align: center;
+}
+
+.sidebar h3 {
+margin-bottom: 10px;
+}
+
+.sidebar a {
+display: block;
+background-color: #007bff;
+padding: 10px;
+border-radius: 5px;
+margin-top: 10px;
+}
+
+.sidebar a:hover {
+background-color: #0056b3;
+}
+
+/* Footer styling */
+footer {
+text-align: center;
+padding: 20px;
+background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+margin-top: auto; /* Pushes the footer to the bottom */
+}
+
+footer p {
+font-size: 0.9rem;
+}
+
+h2 {
+font-style: italic;
+font-family: "Sorts Mill Goudy", serif;
+color: #4c799e;
+}
+
+/* Header Styling */
+header {
+background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+padding: 20px;
+text-align: center;
+color: #fff;
+}
+
+.header-content {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.site-title {
+font-family: "Sorts Mill Goudy", serif;
+font-size: 3rem;
+color: #ffffff; /* Light color for better contrast */
+margin: 0 0 10px 0;
+}
+
+.main-nav {
+margin-top: 10px;
+}
+
+.main-nav ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+display: flex;
+justify-content: center;
+}
+
+.main-nav ul li {
+margin: 0 15px;
+}
+
+.main-nav a {
+text-decoration: none;
+color: #ffffff;
+font-size: 1.2rem;
+font-weight: bold;
+padding: 10px 15px;
+border-radius: 5px;
+transition: background-color 0.3s, color 0.3s;
+}
+
+.main-nav a:hover {
+background-color: #6492c369;
+color: #fff;
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 600px) {
+
+.header-content {
+  margin-left: -110px;
+}
+
+.header-content h1{
+  margin-left: 10px;
+  text-align: center;
+}
+
+.character-list li {
+    margin: -9px;
+    padding: 9px;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  .character-list li:hover {
+    background: #9c97978f;
+  }
+
+.container {
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin-left: 60px;
+}
+
+.sidebar {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.main-nav ul {
+  flex-direction: column;
+}
+
+.main-nav ul li {
+  margin: 10px 0;
+}
+
+.main-nav a {
+  font-size: 1rem;
+  padding: 8px 10px;
+}
+
+.site-title {
+  font-size: 2rem;
+  margin-left: 60px;
+}
+
+
+p {
+  margin-left: -80px;
+}
+
+}
+
+@media (max-width: 480px) {
+.site-title {
+  font-size: 1.5rem;
+}
+
+.main-nav a {
+  font-size: 0.9rem;
+  padding: 6px 8px;
+}
+
+.sidebar h3 {
+  font-size: 1.2rem;
+}
+
+.sidebar a {
+  padding: 8px;
+  font-size: 0.9rem;
+}
+
+footer p {
+  font-size: 0.8rem;
+}
+
+.logo h2 {
+  font-size: 1.5rem;
+}
+
+.character-list li {
+  width: 100%;
+  text-align: center;
+}
+}

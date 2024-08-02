@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Sorts+Mill+Goudy:ital@0;1&display=swap" rel="stylesheet">
+  <title>{{ .Title }}</title>
+  {{ $styles := resources.Get "css/characters.css" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+  <link rel="stylesheet" href="{{ $styles.Permalink }}">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1 class="site-title">DBCM DnD</h1>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/lore">Lore</a></li>
+          <li><a href="/gallery">Gallery</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    <div class="main-content">
+      <div class="character-sections">
+        <section class="main-cast">
+          <h2>Main Cast</h2>
+          <ul class="character-list">
+            {{ range where .Pages "Params.category" "main-cast" }}
+              <li class="list-group-item">
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+              </li>
+            {{ end }}
+          </ul>
+        </section>
+        <section class="recurring-characters">
+          <h2>Recurring Characters</h2>
+          <ul class="character-list">
+            {{ range where .Pages "Params.category" "recurring" }}
+              <li class="list-group-item">
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+              </li>
+            {{ end }}
+          </ul>
+        </section>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; {{ now.Year }} v3ctr0n</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ben</title>
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/character-profile.min.9bfc16aff63475aa2b30468264c217510656930aeaa855980eac501b9c6fe0e3.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Mate:ital@0;1&family=Sorts+Mill+Goudy:ital@0;1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Sorts+Mill+Goudy:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1 class="site-title"></h1>
+      <nav class="main-nav">
+        <ul>
+      
+          <li><a href="/">Home</a></li>
+          <li><a href="/characters">Characters</a></li>
+          <li><a href="/lore">Lore</a></li>
+          <li><a href="/gallery">Gallery</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main-content">
+    <article class="character-profile">
+      <div class="character-text">
+        
+        <h1 id="benedict">Benedict</h1>
+<h2 id="biography">Biography</h2>
+<h2 id="psychology">Psychology</h2>
+
+      </div>
+    </article>
+    <aside class="character-details">
+      <div class="character-details-content">
+        <h2>Information</h2>
+        <ul>
+          <li><strong>Gender:</strong> </li>
+          <li><strong>Race:</strong> </li>
+          <li><strong>Age:</strong> </li>
+          <li><strong>Height:</strong> </li>
+          <li><strong>Hair Colour:</strong> </li>
+          <li><strong>Eye Colour:</strong> </li>
+          <li><strong>Nationality:</strong> </li>
+          <li><strong>Class:</strong> </li>
+          <li><strong>Subclass:</strong> </li>    
+
+        </ul>
+      </div>
+      <div class="table-of-contents">
+        <h2>Table of Contents</h2>
+        <div>
+          <nav id="TableOfContents">
+  <ul>
+    <li><a href="#biography">Biography</a></li>
+    <li><a href="#psychology">Psychology</a></li>
+  </ul>
+</nav>
+        </div>
+      </div>
+    </aside>
+  </main>
+  <footer>
+    <p>&copy; 2024 v3ctr0n. All rights reserved.</p>
+  </footer>
+  <script>
+    function moveTableOfContents() {
+        const toc = document.querySelector('.table-of-contents');
+        const mainContent = document.querySelector('.main-content');
+        const isMobile = window.innerWidth <= 600;
+
+        if (isMobile && mainContent && toc) {
+            mainContent.insertBefore(toc, mainContent.firstChild);
+        }
+    }
+
+    
+    document.addEventListener('DOMContentLoaded', moveTableOfContents);
+
+    
+    window.addEventListener('resize', moveTableOfContents);
+</script>
+
+</body>
+</html>
