@@ -1,5 +1,54 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>v3ctr0n's D&amp;D Wiki</title><link>https://github.com/v3ctr0n/dnd-wiki/</link><description>Recent content on v3ctr0n's D&amp;D Wiki</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 11 Jul 2024 18:26:21 +0200</lastBuildDate><atom:link href="https://github.com/v3ctr0n/dnd-wiki/index.xml" rel="self" type="application/rss+xml"/><item><title>Ben</title><link>https://github.com/v3ctr0n/dnd-wiki/characters/benedict/</link><pubDate>Thu, 11 Jul 2024 18:26:21 +0200</pubDate><guid>https://github.com/v3ctr0n/dnd-wiki/characters/benedict/</guid><description>Benedict Biography Psychology</description></item><item><title>Jackaby</title><link>https://github.com/v3ctr0n/dnd-wiki/characters/jackaby/</link><pubDate>Thu, 11 Jul 2024 18:26:21 +0200</pubDate><guid>https://github.com/v3ctr0n/dnd-wiki/characters/jackaby/</guid><description>Jackaby “Life is boring if you don’t make it interesting.”
-Biography Jackaby grew up in a travelling village called Still a Living Meadow. It seems he has been kidnapped as a baby along with some other kids and was held captive until the age of 6. Then he was taken away by social workers and spent most of his teenage years in an orphanage. Because of his strange ability and at times downright psychotic behaviour, he was admitted into different asylums multiple times, where he also was experimented on.</description></item><item><title>Julian</title><link>https://github.com/v3ctr0n/dnd-wiki/characters/julian/</link><pubDate>Thu, 11 Jul 2024 18:26:21 +0200</pubDate><guid>https://github.com/v3ctr0n/dnd-wiki/characters/julian/</guid><description>Julian Westwind “There’s nothing wrong with a man acknowledging his awesomeness&amp;hellip;”
-Biography Julian was born in Londinium and grew up in Heister with his older brother Benedict. His parents are powerful sorcerers that were part of the VOTHD and supposedly they were demon slayers too before Julian and Benedict were born.
-Julian was kind of a family prodigy, born sorcerer unlike his brother who&amp;rsquo;s a wizard and had to study hard to get his powers.</description></item><item><title>Leon</title><link>https://github.com/v3ctr0n/dnd-wiki/characters/leon/</link><pubDate>Thu, 11 Jul 2024 18:26:21 +0200</pubDate><guid>https://github.com/v3ctr0n/dnd-wiki/characters/leon/</guid><description>Leon Shelton &amp;ldquo;I’m rich, I can afford to do anything.&amp;rdquo;
-Biography Leon was born wealthy as his father was the founder of a very succesful drug company called Shelton Industries. His mother Elisa Hemrey, was of Elven descent, born and raised in Death&amp;rsquo;s Door, moved to Infinitium at age 24, where she met Leon&amp;rsquo;s father Edgar Shelton (also known as Shadow and Edgar Timothy Bradbury) at an art auction (she was an excellent artist).</description></item><item><title/><link>https://github.com/v3ctr0n/dnd-wiki/characters/abigor/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://github.com/v3ctr0n/dnd-wiki/characters/abigor/</guid><description/></item><item><title/><link>https://github.com/v3ctr0n/dnd-wiki/characters/dora/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://github.com/v3ctr0n/dnd-wiki/characters/dora/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>v3ctr0n&#39;s D&amp;D Wiki</title>
+    <link>http://localhost:1313/v3ctr0n/dnd-wiki/</link>
+    <description>Recent content on v3ctr0n&#39;s D&amp;D Wiki</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Jul 2024 18:26:21 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/v3ctr0n/dnd-wiki/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ben</title>
+      <link>http://localhost:1313/v3ctr0n/dnd-wiki/characters/benedict/</link>
+      <pubDate>Thu, 11 Jul 2024 18:26:21 +0200</pubDate>
+      <guid>http://localhost:1313/v3ctr0n/dnd-wiki/characters/benedict/</guid>
+      <description>Benedict Biography Psychology </description>
+    </item>
+    <item>
+      <title>Jackaby</title>
+      <link>http://localhost:1313/v3ctr0n/dnd-wiki/characters/jackaby/</link>
+      <pubDate>Thu, 11 Jul 2024 18:26:21 +0200</pubDate>
+      <guid>http://localhost:1313/v3ctr0n/dnd-wiki/characters/jackaby/</guid>
+      <description>Jackaby “Life is boring if you don’t make it interesting.”&#xA;Biography Jackaby grew up in a travelling village called Still a Living Meadow. It seems he has been kidnapped as a baby along with some other kids and was held captive until the age of 6. Then he was taken away by social workers and spent most of his teenage years in an orphanage. Because of his strange ability and at times downright psychotic behaviour, he was admitted into different asylums multiple times, where he also was experimented on.</description>
+    </item>
+    <item>
+      <title>Julian</title>
+      <link>http://localhost:1313/v3ctr0n/dnd-wiki/characters/julian/</link>
+      <pubDate>Thu, 11 Jul 2024 18:26:21 +0200</pubDate>
+      <guid>http://localhost:1313/v3ctr0n/dnd-wiki/characters/julian/</guid>
+      <description>Julian Westwind “There’s nothing wrong with a man acknowledging his awesomeness&amp;hellip;”&#xA;Biography Julian was born in Londinium and grew up in Heister with his older brother Benedict. His parents are powerful sorcerers that were part of the VOTHD and supposedly they were demon slayers too before Julian and Benedict were born.&#xA;Julian was kind of a family prodigy, born sorcerer unlike his brother who&amp;rsquo;s a wizard and had to study hard to get his powers.</description>
+    </item>
+    <item>
+      <title>Leon</title>
+      <link>http://localhost:1313/v3ctr0n/dnd-wiki/characters/leon/</link>
+      <pubDate>Thu, 11 Jul 2024 18:26:21 +0200</pubDate>
+      <guid>http://localhost:1313/v3ctr0n/dnd-wiki/characters/leon/</guid>
+      <description>Leon Shelton &amp;ldquo;I’m rich, I can afford to do anything.&amp;rdquo;&#xA;Biography Leon was born wealthy as his father was the founder of a very succesful drug company called Shelton Industries. His mother Elisa Hemrey, was of Elven descent, born and raised in Death&amp;rsquo;s Door, moved to Infinitium at age 24, where she met Leon&amp;rsquo;s father Edgar Shelton (also known as Shadow and Edgar Timothy Bradbury) at an art auction (she was an excellent artist).</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/v3ctr0n/dnd-wiki/characters/abigor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/v3ctr0n/dnd-wiki/characters/abigor/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/v3ctr0n/dnd-wiki/characters/dora/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/v3ctr0n/dnd-wiki/characters/dora/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
