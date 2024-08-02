@@ -1,4 +1,4 @@
-module github.com/v3ctrOn/dnd-wiki-1
+module github.com/v3ctrOn/dnd-wiki
 
 go 1.19
 
