@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on v3ctr0n&#39;s D&amp;D Wiki</title>
-    <link>http://localhost:1313/v3ctr0n/dnd-wiki/tags/</link>
+    <link>https://github.com/v3ctr0n/dnd-wiki/tags/</link>
     <description>Recent content in Tags on v3ctr0n&#39;s D&amp;D Wiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/v3ctr0n/dnd-wiki/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://github.com/v3ctr0n/dnd-wiki/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
